@@ -1,3 +1,10 @@
+/*
+ * File:      struptr.cpp
+ * Author:    sansinyang
+ * Email:     sansinyang@gmail.com
+ * Create on: 2018.3.30
+ */
+
 #include <iostream>
 
 using namespace std;
@@ -14,7 +21,7 @@ int main(int argc, char* argv[])
     f=&F;
     F[0]={55};	//only in .cpp file
 
-    cout<<"*F:"<<(*F).j<<endl;
+    cout<<"(*F).j:"<<(*F).j<<endl;
     cout<<"F:"<<F<<endl;
     cout<<"&F:"<<&F<<endl;
     cout<<"f:"<<f<<endl;

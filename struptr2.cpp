@@ -1,3 +1,10 @@
+/*
+ * File:      struptr2.cpp
+ * Author:    sansinyang
+ * Email:     sansinyang@gmail.com
+ * Create on: 2018.3.30
+ */
+
 #include <iostream>
 
 using namespace std;

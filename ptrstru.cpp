@@ -1,3 +1,9 @@
+/*
+ * File:      ptrstru.cpp
+ * Author:    sansinyang
+ * Email:     sansinyang@gmail.com
+ * Create on: 2018.3.30
+ */
 #include <iostream>
 
 using namespace std;
@@ -16,6 +22,7 @@ int main(int argc, char* argv[])
     *f[0]={55};
     *f[1]={56};
     *f[2]={57};
+
     cout<<(*f[0]).j<<endl;
 
     return 0;
