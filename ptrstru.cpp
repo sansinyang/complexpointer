@@ -24,6 +24,12 @@ int main(int argc, char* argv[])
     *f[2]={57};
 
     cout<<(*f[0]).j<<endl;
+    cout<<(*f[1]).j<<endl;
+    cout<<(*f[2]).j<<endl;
+
+    free(f[0]);
+    free(f[1]);
+    free(f[2]);
 
     return 0;
 }

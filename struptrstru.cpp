@@ -29,8 +29,13 @@ int main()
     *f[2]={57};
     Ai A1={12,f[0]};
     Ai A2={12,f[1]};
+
     cout<<(**A1.F).j<<endl;
     cout<<(**A2.F).j<<endl;
+
+    free(f[0]);
+    free(f[1]);
+    free(f[2]);
 
     return 0;
 }

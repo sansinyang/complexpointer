@@ -19,7 +19,11 @@ int main(int argc, char* argv[])
     Fi F[3];
 
     f=&F;
-    F[0]={55};	//only in .cpp file
+    F[0]={55};
+    (*f)[1]={56};
+
+    cout<<"**f:"<<(**f).j<<endl;
+    cout<<"(*(f+1)):"<<(*(*f+1)).j<<endl;
 
     cout<<"(*F).j:"<<(*F).j<<endl;
     cout<<"F:"<<F<<endl;
